@@ -446,6 +446,18 @@ button {
   border: 1px solid #e7e9fc;
   border-top: none;
 }
+.portfolio-cover-text {
+  position: absolute;
+}
+.portfolio-text-wrap {
+  color: var(--CLOUD, #f4f4fd);
+
+  /* Body */
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
 
 /*----------------------------------------------------------------------------------------*/
 
