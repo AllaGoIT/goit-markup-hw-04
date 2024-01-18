@@ -241,6 +241,7 @@ button {
   margin-bottom: 8px;
   align-items: center;
   justify-content: center;
+  height: 112px;
 }
 .team-advanteges-icons {
   border: 1px solid #8e8f99;
