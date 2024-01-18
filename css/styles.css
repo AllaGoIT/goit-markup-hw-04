@@ -195,7 +195,7 @@ address {
   display: block;
   border: none;
   background-color: #4d5ae5;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 button {
@@ -253,8 +253,6 @@ button {
   justify-content: center;
   background-color: #f4f4fd;
   border-radius: 4px;
-  width: 264px;
-  height: 112px;
 }
 
 /*-----------------------------------------------------------------------------*/
@@ -290,6 +288,12 @@ button {
   height: 100%;
 }
 .about-us-item-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
 }
 
 .visually-hidden {
@@ -391,7 +395,7 @@ button {
   margin-top: 8px;
 }
 .team-item-icon {
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-item-icon .link {
   display: flex;
