@@ -507,7 +507,6 @@ button {
   width: 100%;
   height: 100%;
   background-color: #3f51b5;
-
   transform: translatey(100%);
   transition: transform 250ms ease-in-out;
 }
