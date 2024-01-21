@@ -107,6 +107,7 @@ img {
 
 address {
   font-style: normal;
+  margin-left: auto;
 }
 
 .header-address-contact {
@@ -133,7 +134,6 @@ address {
 .header-container {
   display: flex;
   align-items: center;
-  gap: 40px;
 }
 
 .header-novigation {
@@ -273,6 +273,7 @@ button {
 }
 
 .about-us-item {
+  width: calc((100%-72px) / 4);
 }
 .about-us-item-icon {
   display: flex;
@@ -319,7 +320,6 @@ button {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
-  /* 111.111% */
   letter-spacing: 0.02em;
   margin-bottom: 72px;
   text-align: center;
@@ -434,14 +434,14 @@ button {
 .portfolio-list-item {
   width: calc((100% - 48px) / 3);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-list-item:hover .portfolio-text-cover {
   transform: translateY(0%);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-cover-wrap {
@@ -579,9 +579,6 @@ button {
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin-bottom: 16px;
 }
 .footer-item-img {
